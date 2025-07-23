@@ -261,7 +261,7 @@ const ContractCard = {
             {{ contract.type }}
           </span>
           <span v-if="contract.value" class="text-xs font-medium text-gray-600">
-            ${{ contract.value?.toLocaleString('es-CL') }}
+            ${{ contract.value.toLocaleString('es-CL') }}
           </span>
         </div>
         
